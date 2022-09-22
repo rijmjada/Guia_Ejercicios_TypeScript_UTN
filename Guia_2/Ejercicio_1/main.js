@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+const Punto_1 = require("./Punto");
+const Rectangulo_1 = require("./Rectangulo");
+let v1 = new Punto_1.Punto(1, 1);
+let v3 = new Punto_1.Punto(4, 3);
+let rectangulo = new Rectangulo_1.Rectangulo(v1, v3);
+console.log("Area: " + rectangulo.GetArea());
+console.log("Perimetro: " + rectangulo.GetPerimetro());
+console.log("Datos: " + rectangulo.ToString());
